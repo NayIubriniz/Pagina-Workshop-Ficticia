@@ -1,0 +1,19 @@
+#Bloco016
+
+6 - Projeto - Página de Captura
+00:00:00 1 - Introdução - Página de Captura
+00:00:56 2 - Configuração inicial do projeto
+00:04:11 3 - Cabeçalho
+00:11:45 4 - Conteúdo principal
+00:17:32 5 - Estilo do conteúdo principal
+00:30:21 6 - Rodapé
+
+
+
+#Bloco017
+
+6 - Projeto - Página de Captura
+00:00:00 7 - Estilo do rodapé
+00:05:56 8 - Aplicações desse projeto
+00:07:01 9 - Configurando o Mailchimp
+00:13:55 10 - Integração com o Mailchimp

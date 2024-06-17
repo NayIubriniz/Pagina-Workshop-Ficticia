@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #000;
+}
+.container{
+    max-width: 100%;
+}
+.title{
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+.header{
+    background-color: #575c61;
+}
+section{
+    color: #fff;
+    padding: 20px;
+}
+.s-1{
+    background-image: url(../img/Plateia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+div.formContainer{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+h2{
+    
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 15px;
+    color: #202121;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border:none;
+    margin-bottom: 10px;
+
+}
+button{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #575c61;
+    color: #fff;
+    border: none;
+}
+select{
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   appearance: none;
+   background-image: url('../img/seta-down.svg');
+   background-position: calc(100% - 10px) center ;
+   background-repeat: no-repeat;
+   
+}
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.description{
+    width: 50%;
+    color: #fff;
+
+}
+.description h3, .description p{
+    margin-bottom: 10px;
+}
+.picture{
+    width: 160px;
+
+}
+@media screen and (width < 640px) {
+    .title{
+        padding: 10px;
+        margin: 0px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 15px;
+        
+    }
+    div.formContainer{
+        max-width: 100%;
+        background-color: #ffffffbb;
+        padding: 20px;
+        float: right;
+    }
+    .description p{
+        font-size: 13px;
+    }
+    .copyright-area{
+        width: 100%;
+        background-color: #000;
+    }
+}
